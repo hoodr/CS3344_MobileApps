@@ -71,24 +71,6 @@ public class Game {
         return playerBoard[coord[0]][coord[1]] == 0 && cmpBoard[coord[0]][coord[1]] == 0;
     }
 
-//    private boolean isTie(int[] coord){
-//        board[coord[0]][coord[1]] = 1;
-//        int total = 0;
-//        for (int i = 0; i < board.length; i++) {
-//            for (int j = 0; j < board[i].length; j++) {
-//                total += board[i][j];
-////                Log.d(TAG, "board[" + i + "][" + j + "] = " + board[i][j]);
-//            }
-//        }
-//        if (total == 9){
-//            return true;
-//        } else {
-//            board[coord[0]][coord[1]] = 0;
-//            return false;
-//        }
-//    }
-
-
     public void playerMove(int[] coord){
         Log.d(TAG, " player move " + coord[0] + " " + coord[1]);
 
@@ -109,10 +91,6 @@ public class Game {
         } else {
             Log.d(TAG, " Illegal move");
         }
-    }
-
-    public void ready(){
-//        computerMove();
     }
 
     private boolean computerMove(){
