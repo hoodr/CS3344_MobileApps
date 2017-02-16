@@ -1,4 +1,14 @@
 <resources>
-    <string name="app_name">HW2</string>
+    <string name="app_name">[Not So] Simple Tic Tac Toe</string>
     <string name="action_settings">Settings</string>
+    <string name="easy">Easy</string>
+    <string name="med">Med</string>
+    <string name="hard">Hard</string>
+    <string name="again">Again?</string>
+    <string name="startText">score results</string>
+    <string name="startGameText">Tap a Button to Start</string>
+    <string name="player_win">You win!</string>
+    <string name="game_over">Game over.</string>
+    <string name="cmp_win">You lost!</string>
+    <string name="draw">It\'s a draw!</string>
 </resources>
