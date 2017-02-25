@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FixedPriceMeal</string>
+
+    <string name="appetizer">Appetizer</string>
+    <string name="appetizer_text">Appetizer: </string>
+
+    <string name="pasta">Pasta Course</string>
+    <string name="pasta_text">Pasta Course: </string>
+
+    <string name="meatfish">Meat / Fish Course</string>
+    <string name="meatfish_text">Meat/Fish Course: </string>
+
+    <string name="dessert">Dessert Course</string>
+    <string name="dessert_text">Dessert Course: </string>
+
+    <string name="restart">Clear Choices + Start Over</string>
+    <string name="confirm">Confirm Order</string>
+
+
+</resources>
